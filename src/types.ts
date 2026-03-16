@@ -11,7 +11,7 @@ export type ToolId =
 export type Material = {
   id: string
   name: string
-  type: 'fish' | 'flower' | 'dragon' | 'pattern' | 'window'
+  type: 'fish' | 'flower' | 'dragon' | 'pattern' | 'window' | 'character' | 'animal'
   viewBox: string
   path: string
   defaultColor: string
